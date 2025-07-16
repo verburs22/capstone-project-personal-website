@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        .summary{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        .main-container{
+            display: flex;
+            justify-content: center;
+        }
+
+        .education{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        hr{
+            margin: auto;
+            width: 40%;
+        }
+
+        .selfie{
+            border-radius: 50%;
+            padding: 20px;
+        }
+        .boot{
+            display: flex;
+            flex-direction: column;
+        }
+        .certificate{
+            display: flex;
+            flex-direction: row;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!--Header-->
+    <section>
+        <div class="container "> 
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> 
+                <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                    <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> 
+                    <span class="fs-4">Sarah James Verburg </span> 
+                </a> 
+                <ul class="nav nav-pills"> 
+                    <li class="nav-item"><a href="../Capstone Project 1/index.html" class="nav-link active" aria-current="page">Resume</a></li> 
+                    <li class="nav-item"><a href="./projects.html" class="nav-link">Projects</a></li> 
+                    <li class="nav-item"><a href="./about.html" class="nav-link">About Me</a></li> 
+                </ul> 
+            </header> 
+        </div>
+    </section>
+
+    <!--main-->
+    <div class="main-container">
+        <div class="summary my-4">
+            <h2>Summary</h2>
+            <p style="width: 600px;"> Hello! I am a senior at Ferris State University majoring in Applied Math and Computer
+                Science. I am passionate about Web development with skills in HTML, CSS, Python, and 
+                expereince working with Wordpress to create websites for clients. I am organized and detailed 
+                oriented, I love making ideas come to life and using coding to create and problem solve. 
+            </p>  
+        </div>
+        <img  class="selfie" src="./IMG_5328.jpg" width="200" />
+    </div>
+
+    <hr>
+
+    <div class="main-container">
+        <div class="education my-4">
+            <h2 style="padding-bottom: 10px; padding-right: 400px;">Education</h2>
+            <h4>Ferris State University</h3>
+            <p>AUGUST 2022 - present </p>
+            <ul>
+                <li>Majoring in Applied Mathematics and Computer Science</li>
+                <li>Minor in Computer Information Systems </li>
+                <li>Current GPA of 3.9</li>
+                <li>An active member of the Honors Program</li>
+                <li>Vice President of the Actuarial and Applied Mathematics club  </li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+        
+    <div class="main-container">
+        <div class="education my-4">
+            <h2 style="padding-bottom: 10px;">Experience</h2>
+            <h4>EC Group International - Software Intern</h3>
+            <p>May 2025 - present </p>
+            <ul>
+                <li>Stengthen skills through online courses</li>
+                <li>Completed general office duties</li>
+                <li>Travel to office in Chennai, India to job shadow developers </li>
+            </ul>
+            <h4>Plainfield Parks Department - Employee</h3>
+            <p>March 2024 - August 2024 </p>
+            <ul>
+                <li>Cleaned and maintained local parks and government facilities.</li>
+                <li>Completed various tasks based on need, including painting, weeding,<br> power washing, etc. </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="main-container">
+        <div class="education">
+            <h2 style="padding-bottom: 10px; padding-right: 10pc;">Skills and Achievements</h2>
+            <h4>Soft Skills</h3>
+            <ul>
+                <li>Time management</li>
+                <li>Organized and detailed oriented</li>
+                <li>Problem solving mentality and critical thinking</li>
+            </ul>
+
+            <h4>Hard Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="main-container">
+        <div class="education my-4">
+            <h3 style="padding-bottom: 10px;">Udemy Course Competion Certificate</h3>
+            <div class="certificate">
+                <div class="boot">
+                    <h4>Bootcamp</h4>
+                    <img src="./Bootcamp-certifiacte.jpg" height="300" alt="Certificate of Competion" />
+                </div>
+                <div class="master">
+                    <h4>Learn Python Masterclass</h4>
+                    <img src="./Masterclass-certificate.jpg" height="300" alt="Certificate of Competion" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!--Footer-->
+    <section>
+        <div class="container"> 
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> 
+                <div class="col-md-4 d-flex align-items-center"> 
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> 
+                        <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> 
+                    </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Sarah James Verburg</span> 
+                </div> 
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> 
+                    <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#instagram"></use></svg></a></li> 
+                    <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> </ul> 
+                </footer> 
+            </div>
+    </section>
+
+
+    
+</body>
+</html>
